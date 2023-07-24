@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    color: $white-normal;
+    padding: 3rem 1rem;
+
+    .footer-icons {
+        display: flex;
+        gap: 0.8rem;
+
+        i {
+            color: $white-normal;
+        }
+    }
+
+    p {
+        font-weight: 300;
+        font-style: italic;
+        text-align: center;
+    }
+}

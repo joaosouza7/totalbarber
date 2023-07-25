@@ -23,3 +23,60 @@
         text-align: center;
     }
 }
+
+// ----------------------------------------------------------------
+
+// --> WHATSAPP BUTTON
+
+.btn-whatsapp {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 99;
+
+    &:hover {
+        .tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+
+    img {
+        max-width: 58px;
+        transition: transform 0.4s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .tooltip-text {
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: -140px;
+
+        width: 120px;
+        padding: 0.5rem;
+        border-radius: 0.3rem;
+        font-weight: 300;
+        text-align: center;
+
+        background-color: $black-normal;
+        color: $white-normal;
+        opacity: 0;
+        transition: opacity 0.8s;
+    }
+}
+
+// ----------------------------------------------------------------
+
+// --> MEDIA QUERY
+
+@media (max-width: 768px) {
+    .btn-whatsapp {
+        img {
+            max-width: 52px;
+        }
+    }
+}

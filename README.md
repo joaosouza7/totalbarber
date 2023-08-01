@@ -10,7 +10,7 @@
 <br />
 <div align="center">
     <a href="https://github.com/joaosouza7/totalbarber">
-    <img src="assets/logo.svg" alt="Logo" width="82" height="82" />
+    <img src="assets/logo.svg" alt="Logo" width="92" height="92" />
     </a>
     <br />
     <br />
@@ -20,7 +20,7 @@
   <p align="center">
     Landing Page de uma barbearia fictícia.
     <br />
-    <a href="https://totalbarber.vercel.app/"><strong>Explore o projeto »</strong></a>
+    <a target="_blank" href="https://totalbarber.vercel.app/"><strong>Explore o projeto »</strong></a>
     <br />
     <br />
     <a href="#sobre">Sobre</a> •
